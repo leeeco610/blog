@@ -6,9 +6,11 @@
  */
 
 /*mongoDB*/
-const mongoDbHost = 'localhost' 
+const mongoDbHost = '112.74.214.123'
 const mongoDbPort = '27017'
 const mongoDbName = 'blog'
+const mongoDBUser = 'lihaipeng'
+const mongoDBPwd = 'lihaipeng'
 
 /*WEB*/
 const host = 'localhost'
@@ -28,6 +30,8 @@ var config = {
     mongoDbHost : mongoDbHost,
     mongoDbPort : mongoDbPort,
     mongoDbName : mongoDbName,
+    mongoDBUser: mongoDBUser,
+    mongoDBPwd: mongoDBPwd,
     isDev : isDev,
     host : host,
     port : port,
