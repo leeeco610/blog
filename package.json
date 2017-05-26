@@ -4,13 +4,12 @@
   "description": "reactBlog",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --exec babel-node --presets=es2015  -- app.js",
+    "test": "nodemon --exec babel-node --presets=es2015  -- app.js",np
     "dev": "babel-node app.js --watch",
     "dist": "set NODE_ENV=production&&webpack --config webpack.server.config.js --progress --colors&&node app.js",
     "dist_linux": "export NODE_ENV=production&&webpack --config webpack.server.config.js --progress --colors&&node app.js",
     "pm2": "pm2 start app.js"
   },
-  "author": "hechuanhua",
   "license": "MIT",
   "dependencies": {
     "body-parser": "1.9.0",
