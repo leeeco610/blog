@@ -10,6 +10,5 @@
 
 ##### 生产环境
     npm run dist(npm run dist_linux)
-    浏览器输入 localhost:8080
 
 
