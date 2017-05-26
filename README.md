@@ -5,12 +5,8 @@
  后端: node+express+mongoDB提供的API
 
 ### 运行
-    git clone https://github.com/hechuanhua/blog.git
     npm install
     npm install webpack babel babel-cli pm2 -g
-    cd blog
-    启动mongo：  ./mongoDb.sh
-
 
 ##### 开发环境
     npm run dev
