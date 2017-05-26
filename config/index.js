@@ -15,7 +15,7 @@ const mongoDBPwd = 'lihaipeng'
 /*WEB*/
 const host = 'localhost'
 const isDev = process.env.NODE_ENV == 'production' ? false : true
-const port = isDev ? '7070' : '8080'
+const port = isDev ? '7777' : '8888'
 
 /*API地址*/
 let requestAPI

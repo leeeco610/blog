@@ -1,9 +1,5 @@
 # blog
 
- 前端: react+redux+react-router
- 
- 后端: node+express+mongoDB提供的API
-
 ### 运行
     npm install
     npm install webpack babel babel-cli pm2 -g
